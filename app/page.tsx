@@ -266,7 +266,7 @@ export default function AkileWebsite() {
 
           <div className="flex gap-6 text-neutral-400 text-sm flex-wrap justify-center">
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/akile.clo"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
@@ -275,7 +275,7 @@ export default function AkileWebsite() {
             </a>
 
             <a
-              href="https://www.tiktok.com"
+              href="https://www.tiktok.com/@akile.clo"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
