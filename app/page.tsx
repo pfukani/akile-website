@@ -130,7 +130,7 @@ export default function AkileWebsite() {
             </button>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {[
               {
                 name: "Heavyweight Tee",
@@ -155,11 +155,11 @@ export default function AkileWebsite() {
                 key={product.name}
                 className="group bg-neutral-950 rounded-3xl overflow-hidden border border-neutral-800 hover:border-white/20 hover:shadow-2xl hover:shadow-white/5 transition-all duration-500"
               >
-                <div className="h-80 overflow-hidden bg-black">
+                <div className="h-[320px] md:h-80 overflow-hidden bg-black flex items-center justify-center p-4">
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-cover grayscale hover:grayscale-0 hover:scale-105 transition-transform duration-500"
+                    className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 hover:scale-105 drop-shadow-2xl transition-all duration-500"
                   />
                 </div>
 
