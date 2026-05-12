@@ -134,7 +134,7 @@ export default function AkileWebsite() {
             {[
               {
                 name: "Heavyweight Tee",
-                image: "/images/oversizedtee.png",
+                image: "/images/oversizedtee1.png",
                 price: "R750",
                 description: "260 GSM heavyweight cotton.",
               },
@@ -146,7 +146,7 @@ export default function AkileWebsite() {
               },
               {
                 name: "Graphic Series",
-                image: "/images/graphictee.png",
+                image: "/images/graphictee1.png",
                 price: "R850",
                 description: "Bold graphical identity.",
               },
