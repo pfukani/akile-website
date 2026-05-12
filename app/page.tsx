@@ -134,29 +134,33 @@ export default function AkileWebsite() {
             {[
               {
                 name: "Heavyweight Tee",
-                placeholder: "Oversized Tee",
+                image: "/images/oversizedtee.png",
                 price: "R750",
                 description: "260 GSM heavyweight cotton.",
               },
               {
                 name: "Golf Club Tee",
-                placeholder: "Golf Tee",
+                image: "/images/golftee.png",
                 price: "R920",
                 description: "Minimal luxury streetwear.",
               },
               {
                 name: "Graphic Series",
-                placeholder: "Graphic Tee",
+                image: "/images/graphictee.png",
                 price: "R850",
                 description: "Bold graphical identity.",
               },
             ].map((product) => (
               <div
                 key={product.name}
-                className="bg-neutral-950 rounded-3xl overflow-hidden border border-neutral-800 hover:-translate-y-2 transition-transform duration-300"
+                className="group bg-neutral-950 rounded-3xl overflow-hidden border border-neutral-800 hover:border-white/20 hover:shadow-2xl hover:shadow-white/5 transition-all duration-500"
               >
-                <div className="h-96 bg-neutral-900 flex items-center justify-center text-neutral-600 text-xl">
-                  {product.placeholder}
+                <div className="h-80 overflow-hidden bg-black">
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    className="w-full h-full object-cover grayscale hover:grayscale-0 hover:scale-105 transition-transform duration-500"
+                  />
                 </div>
 
                 <div className="p-6">
